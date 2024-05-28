@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#2f2f2f" media="(prefers-color-scheme: dark)" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="noindex,nofollow" />
+      	<meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://internal.analytics.shoopy.in" />
       </head>
       <body>
         <Providers>{children}</Providers>
